@@ -1,0 +1,60 @@
+DPP IV ChimeraX commands
+
+Strip the water and the main drug:
+delete solvent
+delete :2VH
+
+Delete the sugars (NAG) and the Sodium (NA):
+delete :NAG
+delete :NA
+
+Add your geometric hydrogens:
+addh
+
+Save it immediately (Do not run addcharge):
+save ~/DPP4_clean.pdb
+
+Format change + adding charges + choosing A conformation
+mk_prepare_receptor.py -i ~/DPP4_clean.pdb -o ~/DPP4_prepared.pdbqt -p --allow_bad_res --default_altloc A
+
+Terminal output:
+mk_prepare_receptor.py -i ~/DPP4_clean.pdb -o ~/DPP4_prepared.pdbqt -p --allow_bad_res --default_altloc A
+@> 23306 atoms and 1 coordinate set(s) were parsed in 0.08s.
+WARNING: Lone hydrogen is ignored: 
+  PDBAtomInfo(name='HG', resName='SER', resNum=212, icode='', chain='A') 
+
+WARNING: Lone hydrogen is ignored: 
+  PDBAtomInfo(name='HG', resName='SER', resNum=212, icode='', chain='A') 
+
+WARNING: Lone hydrogen is ignored: 
+  PDBAtomInfo(name='HG', resName='SER', resNum=212, icode='', chain='A') 
+
+No template matched for residue_key='A:250'
+tried 6 templates for residue_key='A:250'excess_H_ok=False
+LYS        heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+NLYS       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+CLYS       heavy_miss=5 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+LYN        heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+NLYN       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+CLYN       heavy_miss=5 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+
+matched with excess inter-residue bond(s): A:250
+No template matched for residue_key='B:536'
+tried 6 templates for residue_key='B:536'excess_H_ok=False
+LYS        heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+NLYS       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+CLYS       heavy_miss=5 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+LYN        heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+NLYN       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+CLYN       heavy_miss=5 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+
+matched with excess inter-residue bond(s): B:536
+- Template matching failed for: ['A:250', 'B:536'] Ignored due to allow_bad_res.
+
+Files written:
+/home/maksym/DPP4_prepared.pdbqt.pdbqt <-- static (i.e., rigid) receptor input file
+
+
+
+
+
