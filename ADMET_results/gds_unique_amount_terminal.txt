@@ -1,0 +1,36 @@
+/home/maksym/anaconda3/bin/python /home/maksym/lupinus_analysis/ADMET_src/gds_unique_amount.py
+Loading data from GID_ADMET_combined_active_fragments.xlsx...
+
+==================================================
+             MATCHING ANALYSIS REPORT             
+==================================================
+Target Total Denominator:     71
+Unique Matching Sequences:    24
+Percentage of Target Total:   33.80%
+==================================================
+
+List of Unique Matching Sequences:
+  1. CF
+  2. IA
+  3. IF
+  4. IG
+  5. IH
+  6. IL
+  7. IM
+  8. IP
+  9. IPA
+  10. PA
+  11. PF
+  12. PG
+  13. PH
+  14. PL
+  15. PM
+  16. SF
+  17. SL
+  18. VA
+  19. VF
+  20. VG
+  21. VH
+  22. VL
+  23. VM
+  24. VP

@@ -1,0 +1,27 @@
+/home/maksym/anaconda3/bin/python /home/maksym/lupinus_analysis/ADMET_src/analyse_admet_activity.py
+==== OVERALL SUMMARY ====
+Total unique starting peptides (All classes): 205
+Total unique starting peptides (Target Activities): 205
+Passed ADMET & Activity filters: 71
+
+==== STARTING PEPTIDES BY ACTIVITY CLASS ====
+Activity_Class
+DPP     86
+Dual    69
+ACE     50
+
+==== HITS BY ACTIVITY CLASS (PASSED ADMET) ====
+Activity_Class
+Dual    34
+DPP     26
+ACE     11
+
+==== PEPTIDE LENGTH STATISTICS ====
+Minimum peptide length: 2
+Maximum peptide length: 3
+
+==== LENGTH DISTRIBUTION (Step of 1) ====
+Length 2: 63 peptides
+Length 3: 8 peptides
+
+Saved successfully to: /home/maksym/lupinus_analysis/ADMET_results/optimal_admet_activity_

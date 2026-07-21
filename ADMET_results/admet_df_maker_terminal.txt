@@ -1,0 +1,97 @@
+/home/maksym/anaconda3/bin/python /home/maksym/lupinus_analysis/dfs_images_src/dataframe_maker_for_ADMET_GDS.py
+Scanning: /home/maksym/lupinus_analysis/ADMET_results/GID_ADMET_downloads
+
+  ✓  AF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AG_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AH_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AP_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AV_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  AW_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  CF_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  FK_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GH_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GI_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GM_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  GPF_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  GPL_GID_ActiveFragments.xlsx  →  4 rows
+  ✓  GPM_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  GW_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  HA_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  HF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  HG_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  HL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  IA_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  IF_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  IG_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  IH_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  IL_GID_ActiveFragments.xlsx  →  4 rows
+  ✓  IM_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  IP_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  IPA_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  IVF_GID_ActiveFragments.xlsx  →  5 rows
+  ✓  KF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  MA_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  MF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  MG_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  MH_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  ML_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  MV_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  NF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  NL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  NP_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  PA_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  PF_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  PG_GID_ActiveFragments.xlsx  →  6 rows
+  ✓  PH_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  PI_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  PL_GID_ActiveFragments.xlsx  →  4 rows
+  ✓  PM_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  PV_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  QF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  QI_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  QL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  QP_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  SF_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  SL_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  TF_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  TL_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  TM_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  VA_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  VAF_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  VF_GID_ActiveFragments.xlsx  →  5 rows
+  ✓  VG_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  VH_GID_ActiveFragments.xlsx  →  1 rows
+  ✓  VI_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  VL_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  VM_GID_ActiveFragments.xlsx  →  3 rows
+  ✓  VP_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  VVF_GID_ActiveFragments.xlsx  →  5 rows
+  ✓  VVL_GID_ActiveFragments.xlsx  →  2 rows
+  ✓  WG_GID_ActiveFragments.xlsx  →  0 rows
+  ✓  WV_GID_ActiveFragments.xlsx  →  0 rows
+
+==== FILE ANALYSIS SUMMARY ====
+Total files found:          71
+Successfully parsed files:  71
+Files with 0 rows (empty):  40 (56.34%)
+Files with data (>0 rows):  31 (43.66%)
+===============================
+
+
+Final DataFrame shape: (80, 12)
+  Protein name Enzyme ID                   Source file NO Peptide ID Sequence Location                                                  Name                                                                             Function                             Activity Monoisotopic mass Chemical mass
+0           CF       GID   CF_GID_ActiveFragments.xlsx  1       7751       CF    [1-2]             ACE inhibitor from shark meat hydrolysate  Inhibitor of Angiotensin-Converting Enzyme (ACE) (EC 3.4.15.1) (MEROPS ID: M02-001)                        ACE inhibitor          268.0878      268.3325
+1          GPF       GID  GPF_GID_ActiveFragments.xlsx  1       8854       PF    [2-3]  dipeptidyl peptidase IV inhibitor (DPP IV inhibitor)              Inhibitor of Dipeptidyl Peptidase IV (EC 3.4.14.5) (MEROPS ID: S09.003)    dipeptidyl peptidase IV inhibitor          262.1313      262.3036
+2          GPF       GID  GPF_GID_ActiveFragments.xlsx  2       9505       PF    [2-3]                                    DPP-III inhibitor    Inhibitor of Dipeptidyl peptidase-III (DPP-III) (EC 3.4.14.4) (MEROPS ID: M49.001)  dipeptidyl peptidase III inhibitor           262.1313      262.3036
+3          GPF       GID  GPF_GID_ActiveFragments.xlsx  3      10460       PF    [2-3]                                        ACE2 inhibitor      Inhibitor of angiotensin-converting enzyme 2 (EC 3.4.17.23; MEROPS ID: M02.006)                       ACE2 inhibitor          262.1313      262.3036
+4          GPL       GID  GPL_GID_ActiveFragments.xlsx  1       7513       PL    [2-3]               ACE inhibitor from Alaskan pollack skin        Inhibitor of Angiotensin-converting enzyme (EC 3.4.15.1) (MEROPS ID: M02-001)                        ACE inhibitor          228.1469      228.2873
+5          GPL       GID  GPL_GID_ActiveFragments.xlsx  2       8638       PL    [2-3]  dipeptidyl peptidase IV inhibitor (DPP IV inhibitor)              Inhibitor of Dipeptidyl Peptidase IV (EC 3.4.14.5) (MEROPS ID: S09.003)    dipeptidyl peptidase IV inhibitor          228.1469      228.2873
+6          GPL       GID  GPL_GID_ActiveFragments.xlsx  3      10462       PL    [2-3]                   Inhibitor of Xaa-Pro aminopeptidase               Inhibitor of Xaa-Pro aminopeptidase (EC 3.4.11.9) (MEROPS ID: M24.005)                  xaa-pro inhibitor            228.1469      228.2873
+7          GPL       GID  GPL_GID_ActiveFragments.xlsx  4      10463       PL    [2-3]                               Inhibitor of Lactocepin                          Inhibitor of Lactocepin (EC 3.4.21.96) (MEROPS ID: S08.019)                lactocepin inhibitor           228.1469      228.2873
+8          GPM       GID  GPM_GID_ActiveFragments.xlsx  1       8859       PM    [2-3]  dipeptidyl peptidase IV inhibitor (DPP IV inhibitor)              Inhibitor of Dipeptidyl Peptidase IV (EC 3.4.14.5) (MEROPS ID: S09.003)    dipeptidyl peptidase IV inhibitor          246.1034      246.3269
+9           IA       GID   IA_GID_ActiveFragments.xlsx  1       7562       IA    [1-2]                    ACE inhibitor from soy hydrolysate        Inhibitor of Angiotensin-converting enzyme (EC 3.4.15.1) (MEROPS ID: M02-001)                        ACE inhibitor          202.1313      202.2501
+
+Saved → /home/maksym/lupinus_analysis/ADMET_results/GID_ADMET_combined_active_fragments.xlsx
