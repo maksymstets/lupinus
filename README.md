@@ -84,5 +84,5 @@ The second limitation, and I think the most important one to end on, is this: ev
 ## Table 1
 Overall quantity of conglutin-derived peptides with specific bioactivities
 
-<img width="346" height="512" alt="unnamed" src="https://github.com/user-attachments/assets/0be9623b-106f-4425-be8a-4b204bf8b7e5" />
+<img width="346" height="512" alt="unnamed" src="lupinus/images_results/peptide_table.png" />
 
