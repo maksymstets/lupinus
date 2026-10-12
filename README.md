@@ -86,3 +86,9 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 
 <img width="346" height="512" alt="unnamed" src="https://github.com/maksymstets/lupinus/blob/main/images_results/peptide_table.png" />
 
+
+
+| Directory       | Purpose                       | Key Contents                                            |
+| --------------- | ------------------------------| ------------------------------------------------------- |
+| ADMET_inputs    | Peptides for ADMET analysis   | optimised_peptides_for_admet_metadata.csv               |
+| ADMET_results   | Results of an ADMET analysis  | predictions.csv, optimal_admet_activity_all_length.csv  |
