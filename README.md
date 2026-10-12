@@ -1,5 +1,5 @@
 # Health-Intelligence_Conference_2026_Stets_Havryliak
-#This repo contains scripts for bulk BIOPEP digestion simulation, ADMET analysis via ADMET-AI and molecular docking via AutoDockVina.
+# This repo contains scripts for bulk BIOPEP digestion simulation, ADMET analysis via ADMET-AI and molecular docking via AutoDockVina.
 
 #The results were reported at Health Intelligence Conference 2026 in August, 2026 (Kyiv, Ukraine). 
 
