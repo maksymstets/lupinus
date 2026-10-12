@@ -1,7 +1,7 @@
 # Health-Intelligence_Conference_2026_Stets_Havryliak
-# This repo contains scripts for bulk BIOPEP digestion simulation, ADMET analysis via ADMET-AI and molecular docking via AutoDockVina.
+This repo contains scripts for bulk BIOPEP digestion simulation, ADMET analysis via ADMET-AI and molecular docking via AutoDockVina.
 
-#The results were reported at Health Intelligence Conference 2026 in August, 2026 (Kyiv, Ukraine). 
+The results were reported at Health Intelligence Conference 2026 in August, 2026 (Kyiv, Ukraine). 
 
 #The research workflow was adopted from Arámburo-Gálvez et al., 2024 (https://doi.org/10.3390/ijms252312866), with modifications.
 #The aim of this work on predicting ACE and DPP-IV inhibitory peptides from Lupinus albus, using a combination of in silico hydrolysis, molecular docking, and ADMET profiling.
