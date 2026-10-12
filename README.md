@@ -86,9 +86,27 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 
 <img width="346" height="512" alt="unnamed" src="https://github.com/maksymstets/lupinus/blob/main/images_results/peptide_table.png" />
 
-
+## Folders and files description
 
 | Directory       | Purpose                       | Key Contents                                            |
 | --------------- | ------------------------------| ------------------------------------------------------- |
 | ADMET_inputs    | Peptides for ADMET analysis   | optimised_peptides_for_admet_metadata.csv               |
 | ADMET_results   | Results of an ADMET analysis  | predictions.csv, optimal_admet_activity_all_length.csv  |
+| ADMET_src
+| BIOPEP_src
+| Docking_src
+| dfs_images_src
+| images_results
+| inputs_fasta
+| ACE ChimeraX commands and terminal meeko script
+| ACE_clean.pdb
+| ACE_prepared.pdbqt
+| DPP IV ChimeraX commands and terminal meeko script
+| DPP4_clean.pdb
+| DPP4_prepared.pdbqt
+| README.md
+| config_ACE.txt
+| config_DPP.txt
+| run_all_docking.sh
+| uniprotkb_accession_A
+
