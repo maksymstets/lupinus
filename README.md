@@ -94,19 +94,20 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 | ADMET_results   | Results of an ADMET analysis  | predictions.csv, optimal_admet_activity_all_length.csv  |
 | ADMET_src       | Scripts for ADMET analysis    | analyse_admet_activity.py, smiles_converter_metadata.py, ADMET-AI terminal commands|
 | BIOPEP_src      | Scripts for BIOPEP automation | script_profiles.py, sort_reports.py, rename.py |
-| Docking_src
-| dfs_images_src
-| images_results
-| inputs_fasta
-| ACE ChimeraX commands and terminal meeko script
-| ACE_clean.pdb
-| ACE_prepared.pdbqt
-| DPP IV ChimeraX commands and terminal meeko script
-| DPP4_clean.pdb
+| Docking_src     | Preparatory scripts for docking | affinity.py, peptide_preparation.py|
+| dfs_images_src | Dataframe- and image-making scripts | protein_protease_heatmap.py, dataframe_maker_for_active_fragments.py|
+| images_results | Figures presented | peptide_table.png, protein_per_protease_heatmap.py
+| inputs_fasta | Aminoacid sequences of lupin conglutins | All files here were used
+| ACE ChimeraX commands and terminal meeko script | ChimeraX commands for the preparation for docking of a 3D structure of ACE and meeko script| adding polar hydrogens
+and charges and (2) removal of water molecules and crystallographic ligands|
+| ACE_clean.pdb | ACE .pdb file prepared for docking | 
+| ACE_prepared.pdbqt|
+| DPP IV ChimeraX commands and terminal meeko script | ChimeraX commands for the preparation for docking of a 3D structure of DPP-IV and meeko script|
+| DPP4_clean.pdb | DPP-IV .pdb file prepared for docking |
 | DPP4_prepared.pdbqt
-| README.md
-| config_ACE.txt
-| config_DPP.txt
-| run_all_docking.sh
-| uniprotkb_accession_A0A6A4QEF0_OR_access_2026_05_29.fasta
+| README.md| Description| |
+| config_ACE.txt| Configuration file for ACE docking| |
+| config_DPP.txt| Configuration file for DPP-IV docking | |
+| run_all_docking.sh| Bash script for docking
+| uniprotkb_accession_A0A6A4QEF0_OR_access_2026_05_29.fasta| Original fasta file with lupin conglutin sequences| |
 
