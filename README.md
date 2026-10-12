@@ -92,8 +92,8 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 | --------------- | ------------------------------| ------------------------------------------------------- |
 | ADMET_inputs    | Peptides for ADMET analysis   | optimised_peptides_for_admet_metadata.csv               |
 | ADMET_results   | Results of an ADMET analysis  | predictions.csv, optimal_admet_activity_all_length.csv  |
-| ADMET_src       |
-| BIOPEP_src   |
+| ADMET_src         Scripts for ADMET analysis      analyse_admet_activity.py, smiles_converter_metadata.py, ADMET-AI terminal commands
+| BIOPEP_src   
 | Docking_src
 | dfs_images_src
 | images_results
@@ -108,5 +108,5 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 | config_ACE.txt
 | config_DPP.txt
 | run_all_docking.sh
-| uniprotkb_accession_A
+| uniprotkb_accession_A0A6A4QEF0_OR_access_2026_05_29.fasta
 
