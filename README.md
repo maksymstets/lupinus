@@ -4,7 +4,7 @@ This repo contains scripts for bulk BIOPEP digestion simulation, ADMET analysis 
 The results were reported at Health Intelligence Conference 2026 in August, 2026 (Kyiv, Ukraine). 
 
 The research workflow was adopted from Arámburo-Gálvez et al., 2024 (https://doi.org/10.3390/ijms252312866), with modifications.
-#The aim of this work on predicting ACE and DPP-IV inhibitory peptides from Lupinus albus, using a combination of in silico hydrolysis, molecular docking, and ADMET profiling.
+The aim of this work on predicting ACE and DPP-IV inhibitory peptides from Lupinus albus, using a combination of in silico hydrolysis, molecular docking, and ADMET profiling.
 
 Clinical motivation is straightforward. ACE, angiotensin-converting enzyme, is a central target in hypertension management, and DPP-IV, dipeptidyl peptidase IV, is a central target in type 2 diabetes management. Both are currently addressed with synthetic pharmaceuticals, but there’s a growing body of research looking for food-derived, natural peptide alternatives, ideally ones that could come from an already-consumed, protein-rich crop. That’s the space our work sits in.
 
