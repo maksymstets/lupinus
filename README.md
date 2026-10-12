@@ -98,8 +98,7 @@ Overall quantity of conglutin-derived peptides with specific bioactivities
 | dfs_images_src | Dataframe- and image-making scripts | protein_protease_heatmap.py, dataframe_maker_for_active_fragments.py|
 | images_results | Figures presented | peptide_table.png, protein_per_protease_heatmap.py
 | inputs_fasta | Aminoacid sequences of lupin conglutins | All files here were used
-| ACE ChimeraX commands and terminal meeko script | ChimeraX commands for the preparation for docking of a 3D structure of ACE and meeko script| adding polar |hydrogens
-|and charges and (2) removal of water molecules and crystallographic ligands|
+| ACE ChimeraX commands and terminal meeko script | ChimeraX commands for the preparation for docking of a 3D structure of ACE and meeko script| adding polar hydrogens and charges and (2) removal of water molecules and crystallographic ligands|
 | ACE_clean.pdb | ACE .pdb file prepared for docking | 
 | ACE_prepared.pdbqt|
 | DPP IV ChimeraX commands and terminal meeko script | ChimeraX commands for the preparation for docking of a 3D structure of DPP-IV and meeko script|
